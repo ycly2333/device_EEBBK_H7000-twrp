@@ -92,6 +92,9 @@ TW_DEFAULT_LANGUAGE := zh_CN
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
 
+# defind version information
+TW_DEVICE_VERSION := $(shell date -u +"%Y%m%d"-"Stable"-"LiamLuo")
+
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
 
