@@ -85,6 +85,10 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/devices/soc/c900000.qcom,mdss_mdp/c900000.qcom,mdss_mdp:qcom,mdss_fb_primary/leds/lcd-backlight/brightness
 
+# Language
+TW_EXTRA_LANGUAGES := true
+TW_DEFAULT_LANGUAGE := zh_CN
+
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
 
