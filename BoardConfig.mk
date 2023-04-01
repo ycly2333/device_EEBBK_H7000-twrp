@@ -92,7 +92,6 @@ TW_DEFAULT_LANGUAGE := zh_CN
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
 
-
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
 
@@ -102,3 +101,6 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# defind version information
+TW_DEVICE_VERSION := $(shell date -u +"%Y%m%d"-"ycly2333")
