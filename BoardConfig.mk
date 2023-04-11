@@ -57,10 +57,11 @@ TW_INCLUDE_CRYPTO := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 255
 TW_SCREEN_BLANK_ON_BOOT := true
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXCLUDE_TWRPAPP := true
+TW_ROTATION := 90
 
 # Language
 TW_EXTRA_LANGUAGES := true
